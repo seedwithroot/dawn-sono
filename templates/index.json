@@ -195,10 +195,20 @@
             "page": "about-us",
             "icon": "question_mark"
           }
+        },
+        "a2b6ab6b-3600-443b-b299-5eba7469cf47": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible tab",
+            "tab_content": "<p>test<\/p>",
+            "page": "",
+            "icon": "check_mark"
+          }
         }
       },
       "block_order": [
-        "d547fb25-04fc-4b53-b4f6-0a0df221ec46"
+        "d547fb25-04fc-4b53-b4f6-0a0df221ec46",
+        "a2b6ab6b-3600-443b-b299-5eba7469cf47"
       ],
       "settings": {
         "caption": "test",
