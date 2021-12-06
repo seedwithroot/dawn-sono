@@ -128,15 +128,6 @@
         "mobile_layout": "collage"
       }
     },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "Video",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false
-      }
-    },
     "multi_column": {
       "type": "multicolumn",
       "blocks": {
@@ -184,42 +175,115 @@
         "swipe_on_mobile": false
       }
     },
+    "video": {
+      "type": "video",
+      "settings": {
+        "heading": "Video",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false
+      }
+    },
     "1638456885bcbc1220": {
       "type": "tabs",
       "blocks": {
         "d547fb25-04fc-4b53-b4f6-0a0df221ec46": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "About Us",
-            "tab_content": "",
-            "page": "about-us",
-            "icon": "question_mark"
+            "heading": "How does is this product different than competing brand alternatives?",
+            "tab_content": "<p>The treatments available through our platform contain active ingredients that require a prescription in the United States. Through our platform, providers and dermatologist-approved formulas, can prescribe tailored strengths of the active ingredients that have been clinically shown to be appropriate for everything from sensitive skin with some clogged pores or full blown cystic acne. This level of medical care cannot be provided from a store shelf.<\/p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "0c51b8f7-72a9-4efa-baf8-48e12f5ead63": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Is this better than a spot treatment?",
+            "tab_content": "<p>Acne spot treatments typically treat pimples after they’ve already formed. We provide access to products that treat current and future breakouts.<\/p>",
+            "page": "",
+            "icon": "none"
           }
         },
         "a2b6ab6b-3600-443b-b299-5eba7469cf47": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible tab",
-            "tab_content": "<p>test<\/p>",
+            "heading": "Can this be introduced as part of my existing routine?",
+            "tab_content": "<p>When starting a new skin treatment, it is best to keep it simple so you know which product is doing what. The acne cream available through Hers is specially formulated to make your routine as simple as possible.Dryness can be a side effect in the beginning. In this situation, typically one would moisturize with good non-clogging (look for non-comedogenic) moisturizer. Sun sensitivity can also occur, so SPF 15+ sunscreen will help protect that skin from sun exposure. Ask your provider if you have side effect questions.While face wash, cleanser, lotion etc can be used, we invite you to take full advantage of our platform and ask your provider about products you plan to use. Certain products may interact, such as chemical peels, products with retinol, glycolic acid, etc.<\/p>",
             "page": "",
-            "icon": "check_mark"
+            "icon": "none"
+          }
+        },
+        "5b1db4cc-270b-47a7-be7a-06466754ba2e": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Is this safe for all skin types?",
+            "tab_content": "<p>The treatments available through our platform contain active ingredients that require a prescription in the United States. Through our platform, providers and dermatologist-approved formulas, can prescribe tailored strengths of the active ingredients that have been clinically shown to be appropriate for everything from sensitive skin with some clogged pores or full blown cystic acne. This level of medical care cannot be provided from a store shelf.<\/p>",
+            "page": "",
+            "icon": "none"
           }
         }
       },
       "block_order": [
         "d547fb25-04fc-4b53-b4f6-0a0df221ec46",
-        "a2b6ab6b-3600-443b-b299-5eba7469cf47"
+        "0c51b8f7-72a9-4efa-baf8-48e12f5ead63",
+        "a2b6ab6b-3600-443b-b299-5eba7469cf47",
+        "5b1db4cc-270b-47a7-be7a-06466754ba2e"
       ],
       "settings": {
-        "caption": "test",
-        "heading": "Tabs",
+        "caption": "WE'VE GOT ANSWERS!",
+        "heading": "Frequently asked questions from our community",
         "heading_alignment": "center",
-        "secondary_background": "on_rows",
+        "secondary_background": "on_section",
         "color_scheme": "background-1",
-        "open_first_collapsible_tab": true,
-        "image": "shopify:\/\/shop_images\/image_85.png",
-        "image_ratio": "medium",
-        "desktop_layout": "text_first"
+        "open_first_collapsible_tab": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_first"
+      }
+    },
+    "16388097423297e257": {
+      "type": "image-banner",
+      "blocks": {
+        "1638809742e633dc2f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "medium"
+          }
+        },
+        "1638809742e633dc2f-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        },
+        "1638809742e633dc2f-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1638809742e633dc2f-0",
+        "1638809742e633dc2f-1",
+        "1638809742e633dc2f-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/WMRL84312_84315cab-b71b-46bc-b107-0e1d6cdb97f5.jpg",
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "show_text_box": false,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     }
   },
@@ -228,8 +292,9 @@
     "rich_text",
     "featured_products",
     "collage",
-    "video",
     "multi_column",
-    "1638456885bcbc1220"
+    "video",
+    "1638456885bcbc1220",
+    "16388097423297e257"
   ]
 }
