@@ -184,63 +184,6 @@
         "full_width": false
       }
     },
-    "1638456885bcbc1220": {
-      "type": "tabs",
-      "blocks": {
-        "d547fb25-04fc-4b53-b4f6-0a0df221ec46": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "How does is this product different than competing brand alternatives?",
-            "tab_content": "<p>The treatments available through our platform contain active ingredients that require a prescription in the United States. Through our platform, providers and dermatologist-approved formulas, can prescribe tailored strengths of the active ingredients that have been clinically shown to be appropriate for everything from sensitive skin with some clogged pores or full blown cystic acne. This level of medical care cannot be provided from a store shelf.<\/p>",
-            "page": "",
-            "icon": "none"
-          }
-        },
-        "0c51b8f7-72a9-4efa-baf8-48e12f5ead63": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Is this better than a spot treatment?",
-            "tab_content": "<p>Acne spot treatments typically treat pimples after they’ve already formed. We provide access to products that treat current and future breakouts.<\/p>",
-            "page": "",
-            "icon": "none"
-          }
-        },
-        "a2b6ab6b-3600-443b-b299-5eba7469cf47": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Can this be introduced as part of my existing routine?",
-            "tab_content": "<p>When starting a new skin treatment, it is best to keep it simple so you know which product is doing what. The acne cream available through Hers is specially formulated to make your routine as simple as possible.Dryness can be a side effect in the beginning. In this situation, typically one would moisturize with good non-clogging (look for non-comedogenic) moisturizer. Sun sensitivity can also occur, so SPF 15+ sunscreen will help protect that skin from sun exposure. Ask your provider if you have side effect questions.While face wash, cleanser, lotion etc can be used, we invite you to take full advantage of our platform and ask your provider about products you plan to use. Certain products may interact, such as chemical peels, products with retinol, glycolic acid, etc.<\/p>",
-            "page": "",
-            "icon": "none"
-          }
-        },
-        "5b1db4cc-270b-47a7-be7a-06466754ba2e": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Is this safe for all skin types?",
-            "tab_content": "<p>The treatments available through our platform contain active ingredients that require a prescription in the United States. Through our platform, providers and dermatologist-approved formulas, can prescribe tailored strengths of the active ingredients that have been clinically shown to be appropriate for everything from sensitive skin with some clogged pores or full blown cystic acne. This level of medical care cannot be provided from a store shelf.<\/p>",
-            "page": "",
-            "icon": "none"
-          }
-        }
-      },
-      "block_order": [
-        "d547fb25-04fc-4b53-b4f6-0a0df221ec46",
-        "0c51b8f7-72a9-4efa-baf8-48e12f5ead63",
-        "a2b6ab6b-3600-443b-b299-5eba7469cf47",
-        "5b1db4cc-270b-47a7-be7a-06466754ba2e"
-      ],
-      "settings": {
-        "caption": "WE'VE GOT ANSWERS!",
-        "heading": "Frequently asked questions from our community",
-        "heading_alignment": "center",
-        "secondary_background": "on_section",
-        "color_scheme": "background-1",
-        "open_first_collapsible_tab": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_first"
-      }
-    },
     "16388097423297e257": {
       "type": "image-banner",
       "blocks": {
@@ -285,6 +228,100 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "16388326511b3dad48": {
+      "type": "collection-list",
+      "blocks": {
+        "1638832651143d97b6-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "1638832651143d97b6-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "1638832651143d97b6-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "1638832651143d97b6-0",
+        "1638832651143d97b6-1",
+        "1638832651143d97b6-2"
+      ],
+      "settings": {
+        "title": "Collections",
+        "image_ratio": "square",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": false,
+        "image_padding": false,
+        "show_view_all": false
+      }
+    },
+    "1638832674883274e3": {
+      "type": "collapsible-content",
+      "blocks": {
+        "1638832674f6c883d5-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Hi",
+            "row_content": "<p>Hello erjkjrekejr jkerejkejkrejejkrerj fkerf ejkr gejrg fej ewfew<\/p>",
+            "page": "",
+            "icon": "dryer"
+          }
+        },
+        "1638832674f6c883d5-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "row_content": "",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
+        "1638832674f6c883d5-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "row_content": "",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
+        "1638832674f6c883d5-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "row_content": "",
+            "page": "",
+            "icon": "check_mark"
+          }
+        }
+      },
+      "block_order": [
+        "1638832674f6c883d5-0",
+        "1638832674f6c883d5-1",
+        "1638832674f6c883d5-2",
+        "1638832674f6c883d5-3"
+      ],
+      "settings": {
+        "caption": "hello",
+        "heading": "Collapsible content",
+        "heading_alignment": "left",
+        "secondary_background": "on_section",
+        "color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image": "shopify:\/\/shop_images\/salt-tub.jpg",
+        "image_ratio": "adapt",
+        "desktop_layout": "text_first"
+      }
     }
   },
   "order": [
@@ -294,7 +331,8 @@
     "collage",
     "multi_column",
     "video",
-    "1638456885bcbc1220",
-    "16388097423297e257"
+    "16388097423297e257",
+    "16388326511b3dad48",
+    "1638832674883274e3"
   ]
 }
