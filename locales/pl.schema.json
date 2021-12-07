@@ -1624,7 +1624,7 @@
       }
     },
     "product-recommendations": {
-      "name": "Rekomendacje produktu",
+      "name": "Rekomendacje produktów",
       "settings": {
         "heading": {
           "label": "Nagłówek"
@@ -1940,7 +1940,7 @@
           "info": "Widoczne podczas wyświetlania pola tekstowego"
         },
         "show_text_below": {
-          "label": "Wyświetl tekst pod obrazami na urządzeniu mobilnym"
+          "label": "Wyświetl tekst pod obrazem na urządzeniu mobilnym"
         },
         "image_height": {
           "label": "Wysokość banera",
