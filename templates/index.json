@@ -137,6 +137,32 @@
         "full_width": false
       }
     },
+    "16389099217cae0cb1": {
+      "type": "apps",
+      "blocks": {
+        "fb81800c-4ab6-4766-9fbc-991c39d92a7b": {
+          "type": "shopify:\/\/apps\/loox-photo-reviews\/blocks\/loox-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "max_width": 1920,
+            "text_color": "#000000",
+            "background_color": "#ffffff",
+            "arrows_color": "#000000",
+            "dots_color": "#000000",
+            "button_color": "#000000",
+            "show_more": true,
+            "only_photos": false,
+            "use_widget_font": true,
+            "product_handle": ""
+          }
+        }
+      },
+      "block_order": [
+        "fb81800c-4ab6-4766-9fbc-991c39d92a7b"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "multi_column": {
       "type": "multicolumn",
       "blocks": {
@@ -183,32 +209,6 @@
         "button_link": "",
         "swipe_on_mobile": false
       }
-    },
-    "16389099217cae0cb1": {
-      "type": "apps",
-      "blocks": {
-        "fb81800c-4ab6-4766-9fbc-991c39d92a7b": {
-          "type": "shopify:\/\/apps\/loox-photo-reviews\/blocks\/loox-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "max_width": 1920,
-            "text_color": "#000000",
-            "background_color": "#ffffff",
-            "arrows_color": "#000000",
-            "dots_color": "#000000",
-            "button_color": "#000000",
-            "show_more": true,
-            "only_photos": false,
-            "use_widget_font": true,
-            "product_handle": ""
-          }
-        }
-      },
-      "block_order": [
-        "fb81800c-4ab6-4766-9fbc-991c39d92a7b"
-      ],
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
@@ -217,7 +217,7 @@
     "featured_products",
     "collage",
     "video",
-    "multi_column",
-    "16389099217cae0cb1"
+    "16389099217cae0cb1",
+    "multi_column"
   ]
 }
