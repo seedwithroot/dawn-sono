@@ -216,20 +216,20 @@
         "1639423370476569d3-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text"
+            "heading": "Keep clean everywhere you go."
           }
         },
         "1639423370476569d3-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "text": "<p>Some places are riddled with germs, but that doesn't mean you have to be.<\/p>"
           }
         },
         "1639423370476569d3-2": {
           "type": "button",
           "settings": {
-            "button_label": "",
-            "button_link": ""
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections\/travel-kits"
           }
         }
       },
@@ -251,20 +251,20 @@
         "1639423379e0209fe2-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text"
+            "heading": "Protect your health at home and in the office"
           }
         },
         "1639423379e0209fe2-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "text": "<p>Designed for convenience and accessibility, our compact canisters can be placed anywhere there may be a high demand for cleaning, sanitizing, or disinfecting.<\/p>"
           }
         },
         "1639423379e0209fe2-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections\/home-office-kits"
           }
         }
       },
