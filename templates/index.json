@@ -209,6 +209,76 @@
         "button_link": "",
         "swipe_on_mobile": false
       }
+    },
+    "163942337051223215": {
+      "type": "image-with-text",
+      "blocks": {
+        "1639423370476569d3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text"
+          }
+        },
+        "1639423370476569d3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "1639423370476569d3-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1639423370476569d3-0",
+        "1639423370476569d3-1",
+        "1639423370476569d3-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/SONO_LivingRoom_Set_v3.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "16394233804c805fe9": {
+      "type": "image-with-text",
+      "blocks": {
+        "1639423379e0209fe2-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text"
+          }
+        },
+        "1639423379e0209fe2-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "1639423379e0209fe2-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1639423379e0209fe2-0",
+        "1639423379e0209fe2-1",
+        "1639423379e0209fe2-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/SONO_Hallway_Set_v1.jpg",
+        "height": "small",
+        "color_scheme": "background-1",
+        "layout": "text_first"
+      }
     }
   },
   "order": [
@@ -218,6 +288,8 @@
     "collage",
     "video",
     "16389099217cae0cb1",
-    "multi_column"
+    "multi_column",
+    "163942337051223215",
+    "16394233804c805fe9"
   ]
 }
