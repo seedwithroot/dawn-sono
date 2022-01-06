@@ -11,6 +11,7 @@
   <div class="shop_link"><a href="{{ section.settings.btn_url }}">{{ section.settings.btn_title }}</a></div>
   {% endif %}
   <div class="column-section">
+    {% assign count = 0 %}
     {% for block in section.blocks %}
     {% if block.settings.image %}
     <div class="column-item">
