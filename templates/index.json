@@ -290,16 +290,17 @@
         "1641507969dbe3b121-1": {
           "type": "image_text",
           "settings": {
-            "title": "",
-            "title_color": "",
-            "sub_title": "",
-            "sub_color": "",
-            "btn_title1": "",
+            "bg": "shopify:\/\/shop_images\/tile_macbookpro__cx0ur0qg9biq_small_2x_697d6cdf-b050-4cb0-9ee3-23f381484f68.jpg",
+            "title": "MacBook Pro",
+            "title_color": "#1d1d1f",
+            "sub_title": "Supercharged for pros.",
+            "sub_color": "#1d1d1f",
+            "btn_title1": "Learn More",
             "btn_url1": "",
-            "btn_title2": "",
+            "btn_title2": "Buy",
             "btn_url2": "",
-            "btn_color": "",
-            "des_po": "middle"
+            "btn_color": "#2997ff",
+            "des_po": "top"
           }
         }
       },
