@@ -3,7 +3,11 @@
     {% for block in section.blocks %}
     <div class="image_des-item">
       <div class="bg-section">
+        {% if block.settings.bg %}
         <img src="{{ block.settings.bg | img_url: "master" }}">
+        {% else %}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+        {% endif %}
       </div>
       <div class="des-section">
         {% if block.settings.title %}
