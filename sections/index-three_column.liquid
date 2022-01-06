@@ -5,7 +5,7 @@
   <div class="icon-logo">{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}</div>
   {% endif %}
   {% if section.settings.title %}
-  <div class="section_title">{{ section.settings.title }}</div>
+  <h1 class="section_title">{{ section.settings.title }}</h1>
   {% endif %}
   {% if section.settings.btn_title %}
   <div class="shop_link"><a href="{{ section.settings.btn_url }}" style="color: {{ section.settings.btn_color }};">{{ section.settings.btn_title }}<i class="arrow_right"></i></a></div>
@@ -31,6 +31,10 @@
     text-align: center;
     margin-top: 5rem;
     margin-bottom: 5rem;
+  }
+  .section_title {
+    font-weight: bold;
+    margin-bottom: 0;
   }
   .icon-logo {
     max-width: 50px;
