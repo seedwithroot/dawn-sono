@@ -1,3 +1,9 @@
+<div class="three_column-section">
+  {% if section.settings.logo_icon %}
+  <div class="icon-logo"><img src="{{ section.settings.logo_icon | img_url: "master" }}"></div>
+  {% endif %}
+</div>
+
 {% schema %}
   {
     "name": "Three Column",
