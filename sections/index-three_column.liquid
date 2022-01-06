@@ -1,6 +1,8 @@
 <div class="three_column-section">
   {% if section.settings.logo_icon %}
   <div class="icon-logo"><img src="{{ section.settings.logo_icon | img_url: "master" }}"></div>
+  {% else %}
+  {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
   {% endif %}
   {% if section.settings.title %}
   <h3>{{ section.settings.title }}</h3>
