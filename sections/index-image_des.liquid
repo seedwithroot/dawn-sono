@@ -11,10 +11,10 @@
       </div>
       <div class="des-section">
         {% if block.settings.title %}
-        <h1>{{ block.settings.title }}</h1>
+        <h1 style="color: {{ block.settings.title_color }}">{{ block.settings.title }}</h1>
         {% endif %}
         {% if block.settings.sub_title %}
-        <h3>{{ block.settings.sub_title }}</h3>
+        <h3 style="color: {{ block.settings.sub_color }}">{{ block.settings.sub_title }}</h3>
         {% endif %}
         {% if block.settings.btn_title1 or block.settings.btn_title2 %}
         <div class="link-section {{ block.settings.des_po }}">
