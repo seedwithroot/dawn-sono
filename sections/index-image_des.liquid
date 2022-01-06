@@ -1,6 +1,8 @@
 <div class="image_des-section page-width">
   <div class="image_des-content">
+    {% assign count = 0 %}
     {% for block in section.blocks %}
+    {% assign count = count| plus: 1 %}
     <div class="image_des-item">
       <div class="bg-section">
         {% if block.settings.bg %}
@@ -35,6 +37,9 @@
   .image_des-section {
     margin-top: 5rem;
     margin-bottom: 5rem;
+  }
+  .image_des-content {
+    display: flex;
   }
 </style>
 {% schema %}
