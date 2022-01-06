@@ -11,7 +11,7 @@
         {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
         {% endif %}
       </div>
-      <div class="des-section">
+      <div class="des-section {{ block.settings.des_po.value }}">
         {% if block.settings.title %}
         <h1 style="color: {{ block.settings.title_color }}">{{ block.settings.title }}</h1>
         {% endif %}
@@ -19,7 +19,7 @@
         <h3 style="color: {{ block.settings.sub_color }}">{{ block.settings.sub_title }}</h3>
         {% endif %}
         {% if block.settings.btn_title1 or block.settings.btn_title2 %}
-        <div class="link-section {{ block.settings.des_po.options.value }}">
+        <div class="link-section">
           {% if block.settings.btn_title1 %}
           <a href="{{ block.settings.btn_url1 }}" style="color: {{ block.settings.btn_color }}">{{ block.settings.btn_title1 }}<i class="arrow_right"></i></a>
           {% endif %}
