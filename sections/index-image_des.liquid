@@ -1,6 +1,6 @@
 <div class="image_des-section page-width">
   <div class="image_des-content">
-    {% for block in section %}
+    {% for block in section.blocks %}
     <div class="image_des-item">
       <div class="bg-section">
         <img src="{{ block.settings.bg | img_url: "master" }}">
