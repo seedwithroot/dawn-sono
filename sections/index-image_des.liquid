@@ -11,7 +11,7 @@
         {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
         {% endif %}
       </div>
-      <div class="des-section {{ block.settings.des_po.value }}">
+      <div class="des-section {{ block.settings.des_po.options.value }}">
         {% if block.settings.title %}
         <h1 style="color: {{ block.settings.title_color }}">{{ block.settings.title }}</h1>
         {% endif %}
