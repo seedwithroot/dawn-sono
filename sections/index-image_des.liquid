@@ -19,10 +19,10 @@
         {% if block.settings.btn_title1 or block.settings.btn_title2 %}
         <div class="link-section {{ block.settings.des_po }}">
           {% if block.settings.btn_title1 %}
-          <a href="{{ block.settings.btn_url1 }}" style="color: {{ block.settings.btn_color }}">{{ block.settings.btn_title1 }}</a>
+          <a href="{{ block.settings.btn_url1 }}" style="color: {{ block.settings.btn_color }}">{{ block.settings.btn_title1 }}<i class="arrow_right"></i></a>
           {% endif %}
           {% if block.settings.btn_title1 %}
-          <a href="{{ block.settings.btn_url2 }}" style="color: {{ block.settings.btn_color }}">{{ block.settings.btn_title2 }}</a>
+          <a href="{{ block.settings.btn_url2 }}" style="color: {{ block.settings.btn_color }}">{{ block.settings.btn_title2 }}<i class="arrow_right"></i></a>
           {% endif %}
         </div>
         {% endif %}
