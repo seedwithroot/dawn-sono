@@ -1,7 +1,32 @@
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Three Column",
+    "settings": [
+		{
+			"type": "image_picker",
+			"id": "logo_icon",
+			"label": "Logo Icon"
+		},
+		{
+			"type": "text",
+			"id": "title",
+			"label": "Title"
+		}
+	],
+	"blocks": [
+		{
+			"type": "grid_item",
+            "name": "Text Block",
+            "limit": 3,
+			"settings": [
+				{
+					"type": "image_picker",
+					"id": "image",
+					"label": "Image"
+				}
+			]
+		}
+	]
   }
 {% endschema %}
 
