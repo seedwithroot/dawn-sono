@@ -1,3 +1,33 @@
+<div class="image_des-section page-width">
+  <div class="image_des-content">
+    {% for block in section %}
+    <div class="image_des-item">
+      <div class="bg-section">
+        <img src="{{ block.settings.bg | img_url: "master" }}">
+      </div>
+      <div class="des-section">
+        {% if block.settings.title %}
+        <h1>{{ block.settings.title }}</h1>
+        {% endif %}
+        {% if block.settings.sub_title %}
+        <h3>{{ block.settings.sub_title }}</h3>
+        {% endif %}
+        {% if block.settings.btn_title1 or block.settings.btn_title2 %}
+        <div class="link-section">
+          {% if block.settings.btn_title1 %}
+          <a href="{{ block.settings.btn_url1 }}">{{ block.settings.btn_title1 }}</a>
+          {% endif %}
+          {% if block.settings.btn_title1 %}
+          <a href="{{ block.settings.btn_url2 }}">{{ block.settings.btn_title2 }}</a>
+          {% endif %}
+        </div>
+        {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
 {% schema %}
   {
     "name": "Image & Text",
