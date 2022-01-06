@@ -8,6 +8,13 @@
   {% if section.settings.btn_title %}
   <div class="shop_link"><a href="{{ section.settings.btn_url }}">{{ section.settings.btn_title }}</a></div>
   {% endif %}
+  <div class="column-section">
+    {% for block in section.blocks %}
+    <div class="column-item">
+      <img src="{{ block.settings.image | img_url:"master" }}">
+    </div>
+    {% endfor %}
+  </div>
 </div>
 
 {% schema %}
