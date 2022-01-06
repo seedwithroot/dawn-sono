@@ -2,6 +2,12 @@
   {% if section.settings.logo_icon %}
   <div class="icon-logo"><img src="{{ section.settings.logo_icon | img_url: "master" }}"></div>
   {% endif %}
+  {% if section.settings.title %}
+  <h3>{{ section.settings.title }}</h3>
+  {% endif %}
+  {% if section.settings.btn_title %}
+  <div class="shop_link"><a href="{{ section.settings.btn_url }}">{{ section.settings.btn_title }}</a></div>
+  {% endif %}
 </div>
 
 {% schema %}
