@@ -286,16 +286,19 @@
         "1641455932e4ada6d0-0": {
           "type": "grid_item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/SONO-BP_1-600x400.jpg"
           }
         },
         "1641455932e4ada6d0-1": {
           "type": "grid_item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/SONO-BP-600x400.jpg"
           }
         },
         "1641455932e4ada6d0-2": {
           "type": "grid_item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/SONO-BP_1-600x400.jpg"
           }
         }
       },
