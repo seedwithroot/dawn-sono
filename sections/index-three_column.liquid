@@ -30,6 +30,22 @@
   .three_column-section img{
     display: block;
   }
+  .column-section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .column-item {
+    width: 100%;
+  }
+  {% if count == 2 %}
+  .column-item {
+    width: 50%;
+  }
+  {% elsif count == 3 %}
+  .column-item {
+    width: 33.333%;
+  }
+  {% endif %}
 </style>
 {% schema %}
   {
