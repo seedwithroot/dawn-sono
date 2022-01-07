@@ -13,10 +13,10 @@
       </div>
       <div class="des-section {{ block.settings.des_po }}">
         {% if block.settings.title %}
-        <h1 style="color: {{ block.settings.title_color }}">{{ block.settings.title }}</h1>
+        <h2 style="color: {{ block.settings.title_color }}">{{ block.settings.title }}</h2>
         {% endif %}
         {% if block.settings.sub_title %}
-        <h3 style="color: {{ block.settings.sub_color }}">{{ block.settings.sub_title }}</h3>
+        <h4 style="color: {{ block.settings.sub_color }}">{{ block.settings.sub_title }}</h4>
         {% endif %}
         {% if block.settings.btn_title1 or block.settings.btn_title2 %}
         <div class="link-section">
@@ -72,7 +72,7 @@
     display: inline-block;
     text-decoration: none;
   }
-  .des-section h1, .des-section h3{
+  .des-section h2, .des-section h4{
     margin: 0;
   }
   .link-section a:last-child {
