@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-travel_disinfectant_wipes",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
