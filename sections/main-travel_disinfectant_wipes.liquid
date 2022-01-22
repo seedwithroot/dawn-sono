@@ -4,7 +4,8 @@
           {% when "hero_section" %}
           <div class="hero-section">
 			<div class="bg_section">
-              
+              <img class="desktop_img" src="{{ block.settings.image | img_url: "master" }}">
+              <img class="mobile_img" src="{{ block.settings.mb_image | img_url:" master" }}">
             </div>
           </div>
   	{% endcase %}
