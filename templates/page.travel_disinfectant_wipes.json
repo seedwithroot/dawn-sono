@@ -2,6 +2,23 @@
   "sections": {
     "main": {
       "type": "main-travel_disinfectant_wipes",
+      "blocks": {
+        "2ae11514-c0e2-444b-b515-73e1376085b2": {
+          "type": "hero_section",
+          "settings": {
+            "vertical_align": "middle",
+            "horizontal_align": "center",
+            "image": "shopify:\/\/shop_images\/Copy_of_Untitled_f207ee08-f28b-4106-a7b6-7652c0b0d432.jpg",
+            "title": "",
+            "des": "",
+            "btn_title": "",
+            "btn_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "2ae11514-c0e2-444b-b515-73e1376085b2"
+      ],
       "settings": {
       }
     }
