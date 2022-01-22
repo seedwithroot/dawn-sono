@@ -12,14 +12,16 @@
   margin-top: 0;
   color: #fff;
 }
-.hero_des.center .hero_des-container p {
+.hero_des .hero_des-container p {
   color: #fff;
   font-size: 24px;
   margin-top: 0;
   max-width: 740px;
+}
+.hero_des.center .hero_des-container p {
   margin: 0 auto 35px;
 }
-.hero_des .hero_des-container p {
+.hero_des.left .hero_des-container p {
   margin-left: 0;
   margin-right: auto;
 }
