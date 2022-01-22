@@ -52,6 +52,22 @@
       .hero_des.right {
         text-align: right;
       }
+      .bg_section img {
+        diplay: block;
+      }
+      {% if block.settings.mb_image %}
+      .bg_section img.mobile_img {
+        display: none;
+      }
+      @media(max-width: 767px) {
+        .bg_section img.mobile_img {
+          display: block;
+        }
+        .bg_section img.desktop_img {
+          display: none;
+        }
+      }
+      {% endif %}
       {% endif %}
 	</style>
   {% endfor %}
