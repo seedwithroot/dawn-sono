@@ -17,8 +17,12 @@
               <div class="hero_des-container">
                 {% if block.settings.title %}
                 <h1>{{ block.settings.title }}</h1>
+                {% endif %}
+                {% if block.settings.des %}
                 <p>{{ block.settings.des }}</p>
-                <
+                {% endif %}
+                {% if block.settings.btn_title %}
+                <a href="{{ block.settings.btn_url }}">{{ block.settings.btn_title }}</a>
                 {% endif %}
               </div>
             </div>
