@@ -13,7 +13,7 @@
               {% endif %}
             </div>
             {% endif %}
-            <div class="hero_des">
+            <div class="hero_des {{ block.settings.vertical_align }} {{ block.settings.horizontal_align }}">
               <div class="hero_des-container">
                 {% if block.settings.title %}
                 <h1>{{ block.settings.title }}</h1>
