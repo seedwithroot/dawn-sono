@@ -1,8 +1,11 @@
 <div class="page-travel">
   {% for block in section.blocks %}
-  <div class="hero-section">
-    
-  </div>
+    {% case block.type %}
+          {% when "hero_section" %}
+          <div class="hero-section">
+
+          </div>
+  	{% endcase %}
   {% endfor %}
 </div>
 {% schema %}
