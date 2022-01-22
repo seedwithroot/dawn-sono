@@ -3,10 +3,16 @@
     {% case block.type %}
           {% when "hero_section" %}
           <div class="hero-section">
+            {% if block.settings.image %}
 			<div class="bg_section">
+              {% if block.settings.image %}
               <img class="desktop_img" src="{{ block.settings.image | img_url: "master" }}">
+              {% endif %}
+              {% if block.settings.mb_image %}
               <img class="mobile_img" src="{{ block.settings.mb_image | img_url:" master" }}">
+              {% endif %}
             </div>
+            {% endif %}
           </div>
   	{% endcase %}
   {% endfor %}
