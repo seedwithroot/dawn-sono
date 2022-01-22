@@ -13,6 +13,15 @@
               {% endif %}
             </div>
             {% endif %}
+            <div class="hero_des">
+              <div class="hero_des-container">
+                {% if block.settings.title %}
+                <h1>{{ block.settings.title }}</h1>
+                <p>{{ block.settings.des }}</p>
+                <
+                {% endif %}
+              </div>
+            </div>
           </div>
   	{% endcase %}
   {% endfor %}
@@ -88,11 +97,6 @@
 					"type": "textarea",
 					"id": "des",
 					"label": "Description"
-				},
-				{
-					"type": "textarea",
-					"id": "sub_des",
-					"label": "Sub Description"
 				},
 				{
 					"type": "text",
