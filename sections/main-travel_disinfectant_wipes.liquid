@@ -3,7 +3,9 @@
     {% case block.type %}
           {% when "hero_section" %}
           <div class="hero-section">
-
+			<div class="bg_section">
+              
+            </div>
           </div>
   	{% endcase %}
   {% endfor %}
@@ -62,8 +64,13 @@
 				},
 				{
 					"type": "image_picker",
-					"id": "Image",
+					"id": "image",
 					"label": "Hero Desktop Image"
+				},
+				{
+					"type": "image_picker",
+					"id": "mb_image",
+					"label": "Hero Mobile Image"
 				},
 				{
 					"type": "text",
