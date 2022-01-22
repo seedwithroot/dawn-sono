@@ -30,10 +30,14 @@
   	{% endcase %}
   	<style>
       {% if block.settings.image %}
-      .hero_des.center {
+      .hero_des.middle {
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
+        width: 100%;
+      }
+      .hero_des.center {
+        text-align: center;
       }
       {% endif %}
 	</style>
