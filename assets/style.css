@@ -18,4 +18,9 @@
   margin-top: 0;
   margin-bottom: 35px;
 }
+.hero_des-container a {
+  text-decoration: none;
+  background: #fff;
+  border-radius: 5px;
+}
 /* trave page */
