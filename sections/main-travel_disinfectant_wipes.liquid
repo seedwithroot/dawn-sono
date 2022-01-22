@@ -28,8 +28,18 @@
             </div>
           </div>
   	{% endcase %}
+  	<style>
+      {% if block.settings.image %}
+      .hero_des.center {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+      {% endif %}
+	</style>
   {% endfor %}
 </div>
+
 {% schema %}
   {
     "name": "Travel Disinfectant Wipes",
