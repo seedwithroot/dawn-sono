@@ -42,17 +42,17 @@
               {% endif %}
               {% if block.settings.show_item2 %}
               <div class="text_image-item">
-                {% if block.settings.image1 %}
-                <img src="{{ block.settings.image1 | img_url: "master" }}">
+                {% if block.settings.image2 %}
+                <img src="{{ block.settings.image2 | img_url: "master" }}">
                 {% endif %}
-                {% if block.settings.title1 %}
-                <h1>{{ block.settings.title1 }}</h1>
+                {% if block.settings.title2 %}
+                <h1>{{ block.settings.title2 }}</h1>
                 {% endif %}
-                {% if block.settings.des1 %}
-                <p>{{ block.settings.des1 }}</p>
+                {% if block.settings.des2 %}
+                <p>{{ block.settings.des2 }}</p>
                 {% endif %}
-                {% if block.settings.btn_title1 %}
-                <a hef="{{ block.settings.btn_url1 }}">{{ block.settings.btn_title1 }}</a>
+                {% if block.settings.btn_title2 %}
+                <a hef="{{ block.settings.btn_url2 }}">{{ block.settings.btn_title2 }}</a>
                 {% endif %}
               </div>
               {% endif %}
