@@ -18,21 +18,54 @@
         "c0bd08ee-b058-46b7-9b1c-1b47a105e392": {
           "type": "text-columns-with-images",
           "settings": {
+            "show_item1": true,
             "image1": "shopify:\/\/shop_images\/noun_Community_1150599_e12e6624-171a-4a21-8f04-bda4dd09894c.png",
             "title1": "Eco-Conscious",
             "des1": "Sustainability is our main goal, that's why our packaging is recyclable.",
+            "btn_url1": "",
+            "btn_title1": "Learn More",
+            "show_item2": true,
             "image2": "shopify:\/\/shop_images\/noun_Community_1150599-1_92c18e17-f781-4aae-a9dd-2f799ce6368f.png",
             "title2": "Whole Ingredients",
             "des2": "Our natural ingredients will leave you feeling fresh and smooth.",
+            "btn_url2": "",
+            "btn_title2": "Learn More",
+            "show_item3": true,
             "image3": "shopify:\/\/shop_images\/noun_Community_1150599-2_a02fe32c-6ac9-4fd1-9a98-8b12a1241048.png",
             "title3": "Community Driven",
-            "des3": "We donate 5% of our sales to the communities that we live & work in."
+            "des3": "We donate 5% of our sales to the communities that we live & work in.",
+            "btn_url3": "",
+            "btn_title3": "Learn More"
+          }
+        },
+        "9fe94282-a838-4de1-8e2d-e08bb85c9cdb": {
+          "type": "text-columns-with-images",
+          "settings": {
+            "show_item1": true,
+            "image1": "shopify:\/\/shop_images\/noun_Community_1150599_e12e6624-171a-4a21-8f04-bda4dd09894c.png",
+            "title1": "Eco-Conscious",
+            "des1": "Sustainability is our main goal, that's why our packaging is recyclable.",
+            "btn_url1": "#",
+            "btn_title1": "Learn More",
+            "show_item2": true,
+            "image2": "shopify:\/\/shop_images\/noun_Community_1150599-1_92c18e17-f781-4aae-a9dd-2f799ce6368f.png",
+            "title2": "Whole Ingredients",
+            "des2": "Our natural ingredients will leave you feeling fresh and smooth.",
+            "btn_url2": "#",
+            "btn_title2": "Learn More",
+            "show_item3": true,
+            "image3": "shopify:\/\/shop_images\/noun_Community_1150599-2_a02fe32c-6ac9-4fd1-9a98-8b12a1241048.png",
+            "title3": "Community Driven",
+            "des3": "We donate 5% of our sales to the communities that we live & work in.",
+            "btn_url3": "#",
+            "btn_title3": "Learn More"
           }
         }
       },
       "block_order": [
         "2ae11514-c0e2-444b-b515-73e1376085b2",
-        "c0bd08ee-b058-46b7-9b1c-1b47a105e392"
+        "c0bd08ee-b058-46b7-9b1c-1b47a105e392",
+        "9fe94282-a838-4de1-8e2d-e08bb85c9cdb"
       ],
       "settings": {
       }
