@@ -30,8 +30,25 @@
   		  {% when "text-columns-with-images" %}
   		  <div class="text_image-section">
             <div class="text_image-container">
-              {% if block.settings.item1 %}
-              
+              {% if block.settings.show_item1 %}
+              <div class="text_image-item">
+                {% if block.settings.image1 %}
+                <img src="{{ block.settings.image1 | img_url: "master" }}">
+                {% endif %}
+                <h1>{{ block.settings.title1 }}</h1>
+                <p>{{ block.settings.des1 }}</p>
+                <a hef="{{ block.settings.btn_url1 }}">{{ block.settings.btn_title1 }}</a>
+              </div>
+              {% endif %}
+              {% if block.settings.show_item2 %}
+              <div class="text_image-item">
+                {% if block.settings.image1 %}
+                <img src="{{ block.settings.image1 | img_url: "master" }}">
+                {% endif %}
+                <h1>{{ block.settings.title1 }}</h1>
+                <p>{{ block.settings.des1 }}</p>
+                <a hef="{{ block.settings.btn_url1 }}">{{ block.settings.btn_title1 }}</a>
+              </div>
               {% endif %}
             </div>
   		  </div>
