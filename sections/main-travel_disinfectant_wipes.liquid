@@ -56,6 +56,22 @@
                 {% endif %}
               </div>
               {% endif %}
+              {% if block.settings.show_item3 %}
+              <div class="text_image-item">
+                {% if block.settings.image3 %}
+                <img src="{{ block.settings.image3 | img_url: "master" }}">
+                {% endif %}
+                {% if block.settings.title3 %}
+                <h1>{{ block.settings.title3 }}</h1>
+                {% endif %}
+                {% if block.settings.des3 %}
+                <p>{{ block.settings.des3 }}</p>
+                {% endif %}
+                {% if block.settings.btn_title3 %}
+                <a hef="{{ block.settings.btn_url3 }}">{{ block.settings.btn_title3 }}</a>
+                {% endif %}
+              </div>
+              {% endif %}
             </div>
   		  </div>
   	{% endcase %}
