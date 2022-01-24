@@ -55,12 +55,12 @@
   align-items: center;
   justify-content: center;
   max-width: 1020px;
-  padding: 0 15px;
   margin: 0 auto;
 }
 .text_image-item {
   margin: 20px 0;
   max-width: 33.33%;
+  padding: 0 15px;
 }
 .text_image-item img{
   max-width: 80px;
