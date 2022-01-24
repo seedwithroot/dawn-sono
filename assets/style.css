@@ -75,4 +75,9 @@
   color: #e1501b;
   text-decoration: none;
 }
+@media(max-width: 767px) {
+  .text_image-item {
+   	max-width: 100%; 
+  }
+}
 /* trave page */
