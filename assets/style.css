@@ -49,4 +49,9 @@
   font-weight: bold;
   margin-top: 0;
 }
+.text_image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /* trave page */
