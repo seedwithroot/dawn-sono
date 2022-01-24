@@ -68,6 +68,10 @@
   display: block;
 }
 .text_image-item h2{
-  
+  font-weight: bold;
+}
+.text_image-item a{
+  color: #e1501b;
+  text-decoration: none;
 }
 /* trave page */
