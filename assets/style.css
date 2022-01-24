@@ -55,4 +55,8 @@
   align-items: center;
   justify-content: center;
 }
+.text_image-item img{
+  max-width: 80px;
+  margin:0 auto;
+}
 /* trave page */
