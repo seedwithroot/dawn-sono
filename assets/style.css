@@ -40,4 +40,9 @@
   font-weight: bold;
   text-transform: uppercase;
 }
+
+.text_image-section {
+  text-align: center;
+  margin: 50px 0;
+}
 /* trave page */
