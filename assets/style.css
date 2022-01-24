@@ -54,6 +54,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  max-width: 1020px;
+  padding: 0 15px;
 }
 .text_image-item {
   margin: 20px 0;
