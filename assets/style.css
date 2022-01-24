@@ -56,7 +56,8 @@
   justify-content: center;
 }
 .text_image-item {
-  margin: 20px 0; 
+  margin: 20px 0;
+  max-width: 33.33%;
 }
 .text_image-item img{
   max-width: 80px;
