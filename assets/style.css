@@ -65,5 +65,9 @@
 .text_image-item img{
   max-width: 80px;
   margin:0 auto;
+  display: block;
+}
+.text_image-item h2{
+  
 }
 /* trave page */
