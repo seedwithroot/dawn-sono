@@ -56,6 +56,7 @@
   justify-content: center;
   max-width: 1020px;
   margin: 0 auto;
+  flex-wrap: wrap;
 }
 .text_image-item {
   margin: 20px 0;
