@@ -63,9 +63,10 @@
         "164315368571e43005-1": {
           "type": "text-columns-with-images",
           "settings": {
-            "title": "",
-            "des": "",
-            "btn_url": "",
+            "image": "shopify:\/\/shop_images\/noun_Community_1150599-1_92c18e17-f781-4aae-a9dd-2f799ce6368f.png",
+            "title": "Whole Ingredients",
+            "des": "Our natural ingredients will leave you feeling fresh and smooth.",
+            "btn_url": "#",
             "btn_title": "Learn More"
           }
         }
