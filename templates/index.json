@@ -116,6 +116,32 @@
         "full_width": true
       }
     },
+    "16389099217cae0cb1": {
+      "type": "apps",
+      "blocks": {
+        "fb81800c-4ab6-4766-9fbc-991c39d92a7b": {
+          "type": "shopify:\/\/apps\/loox-photo-reviews\/blocks\/loox-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "max_width": 1920,
+            "text_color": "#000000",
+            "background_color": "#ffffff",
+            "arrows_color": "#000000",
+            "dots_color": "#000000",
+            "button_color": "#000000",
+            "show_more": true,
+            "only_photos": false,
+            "use_widget_font": true,
+            "product_handle": ""
+          }
+        }
+      },
+      "block_order": [
+        "fb81800c-4ab6-4766-9fbc-991c39d92a7b"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "featured_products": {
       "type": "featured-collection",
       "settings": {
@@ -181,32 +207,6 @@
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": false
-      }
-    },
-    "16389099217cae0cb1": {
-      "type": "apps",
-      "blocks": {
-        "fb81800c-4ab6-4766-9fbc-991c39d92a7b": {
-          "type": "shopify:\/\/apps\/loox-photo-reviews\/blocks\/loox-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "max_width": 1920,
-            "text_color": "#000000",
-            "background_color": "#ffffff",
-            "arrows_color": "#000000",
-            "dots_color": "#000000",
-            "button_color": "#000000",
-            "show_more": true,
-            "only_photos": false,
-            "use_widget_font": true,
-            "product_handle": ""
-          }
-        }
-      },
-      "block_order": [
-        "fb81800c-4ab6-4766-9fbc-991c39d92a7b"
-      ],
-      "settings": {
-        "include_margins": true
       }
     },
     "1641455932520c7184": {
@@ -354,10 +354,10 @@
     "image_banner",
     "1641507969cd637e86",
     "rich_text",
+    "16389099217cae0cb1",
     "featured_products",
     "collage",
     "video",
-    "16389099217cae0cb1",
     "1641455932520c7184",
     "163942337051223215",
     "16394233804c805fe9",
