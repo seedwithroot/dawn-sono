@@ -1,5 +1,5 @@
 <div class="text_image-section">
-  {% if block.settings.header_title %}
+  {% if section.settings.header_title %}
   <h2 class="section-title">{{ block.settings.header_title }}</h2>
   {% endif %}
   <div class="text_image-container">
@@ -49,7 +49,7 @@
 </div>
 {% schema %}
   {
-    "name": "Text & Image",
+    "name": "Three Column Text & Image",
     "settings": [
 		{
           "type": "text",
@@ -91,6 +91,19 @@
 					"default": "Learn More"
 				}
 			]
+		}
+	],
+	"presets": [
+		{
+			"name": "Three Column Text & Image",
+			"blocks": [
+              {
+                "type": "text-columns-with-images"
+              },
+              {
+                "type": "text-columns-with-images"
+              }
+            ]
 		}
 	]
   }
