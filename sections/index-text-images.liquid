@@ -1,3 +1,52 @@
+<div class="text_image-section">
+  {% if block.settings.header_title %}
+  <h2 class="section-title">{{ block.settings.header_title }}</h2>
+  {% endif %}
+  <div class="text_image-container">
+    {% if block.settings.show_item1 %}
+    <div class="text_image-item">
+      {% if block.settings.image1 %}
+      <img src="{{ block.settings.image1 | img_url: "master" }}">
+      {% endif %}
+      <h2>{{ block.settings.title1 }}</h2>
+      <p>{{ block.settings.des1 }}</p>
+      <a href="{{ block.settings.btn_url1 }}">{{ block.settings.btn_title1 }}</a>
+    </div>
+    {% endif %}
+    {% if block.settings.show_item2 %}
+    <div class="text_image-item">
+      {% if block.settings.image2 %}
+      <img src="{{ block.settings.image2 | img_url: "master" }}">
+      {% endif %}
+      {% if block.settings.title2 %}
+      <h2>{{ block.settings.title2 }}</h2>
+      {% endif %}
+      {% if block.settings.des2 %}
+      <p>{{ block.settings.des2 }}</p>
+      {% endif %}
+      {% if block.settings.btn_title2 %}
+      <a href="{{ block.settings.btn_url2 }}">{{ block.settings.btn_title2 }}</a>
+      {% endif %}
+    </div>
+    {% endif %}
+    {% if block.settings.show_item3 %}
+    <div class="text_image-item">
+      {% if block.settings.image3 %}
+      <img src="{{ block.settings.image3 | img_url: "master" }}">
+      {% endif %}
+      {% if block.settings.title3 %}
+      <h2>{{ block.settings.title3 }}</h2>
+      {% endif %}
+      {% if block.settings.des3 %}
+      <p>{{ block.settings.des3 }}</p>
+      {% endif %}
+      {% if block.settings.btn_title3 %}
+      <a href="{{ block.settings.btn_url3 }}">{{ block.settings.btn_title3 }}</a>
+      {% endif %}
+    </div>
+    {% endif %}
+  </div>
+</div>
 {% schema %}
   {
     "name": "Text & Image",
