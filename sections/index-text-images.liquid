@@ -5,12 +5,12 @@
   <div class="text_image-container">
     {% for block in section.blocks %}
     <div class="text_image-item">
-      {% if block.settings.image1 %}
-      <img src="{{ block.settings.image1 | img_url: "master" }}">
+      {% if block.settings.image %}
+      <img src="{{ block.settings.image | img_url: "master" }}">
       {% endif %}
-      <h2>{{ block.settings.title1 }}</h2>
-      <p>{{ block.settings.des1 }}</p>
-      <a href="{{ block.settings.btn_url1 }}">{{ block.settings.btn_title1 }}</a>
+      <h2>{{ block.settings.title }}</h2>
+      <p>{{ block.settings.des }}</p>
+      <a href="{{ block.settings.btn_url }}">{{ block.settings.btn_title }}</a>
     </div>
     {% endfor %}
   </div>
