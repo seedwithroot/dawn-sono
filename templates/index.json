@@ -348,6 +348,37 @@
         "color_scheme": "background-1",
         "layout": "image_first"
       }
+    },
+    "16431538414e2d40fb": {
+      "type": "index-text-images",
+      "blocks": {
+        "16431538414077bd8d-0": {
+          "type": "text-columns-with-images",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/noun_Community_1150599_e12e6624-171a-4a21-8f04-bda4dd09894c.png",
+            "title": "Eco-Conscious",
+            "des": "Sustainability is our main goal, that's why our packaging is recyclable.",
+            "btn_url": "#",
+            "btn_title": "Learn More"
+          }
+        },
+        "16431538414077bd8d-1": {
+          "type": "text-columns-with-images",
+          "settings": {
+            "title": "",
+            "des": "",
+            "btn_url": "",
+            "btn_title": "Learn More"
+          }
+        }
+      },
+      "block_order": [
+        "16431538414077bd8d-0",
+        "16431538414077bd8d-1"
+      ],
+      "settings": {
+        "header_title": "What makes our products special?"
+      }
     }
   },
   "order": [
@@ -361,6 +392,7 @@
     "1641455932520c7184",
     "163942337051223215",
     "16394233804c805fe9",
-    "1643145553accd79fc"
+    "1643145553accd79fc",
+    "16431538414e2d40fb"
   ]
 }
