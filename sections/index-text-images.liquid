@@ -3,7 +3,7 @@
   <h2 class="section-title">{{ section.settings.header_title }}</h2>
   {% endif %}
   <div class="text_image-container">
-    {% if block.settings.show_item1 %}
+    {% for block in section.blocks %}
     <div class="text_image-item">
       {% if block.settings.image1 %}
       <img src="{{ block.settings.image1 | img_url: "master" }}">
@@ -12,7 +12,7 @@
       <p>{{ block.settings.des1 }}</p>
       <a href="{{ block.settings.btn_url1 }}">{{ block.settings.btn_title1 }}</a>
     </div>
-    {% endif %}
+    {% endfor %}
     {% if block.settings.show_item2 %}
     <div class="text_image-item">
       {% if block.settings.image2 %}
@@ -66,28 +66,28 @@
 			"settings": [
 				{
 					"type": "image_picker",
-					"id": "image1",
-					"label": "Image1"
+					"id": "image",
+					"label": "Image"
 				},
 				{
 					"type": "text",
-					"id": "title1",
-					"label": "Title1"
+					"id": "title",
+					"label": "Title"
 				},
 				{
 					"type": "textarea",
-					"id": "des1",
-					"label": "Description1"
+					"id": "des",
+					"label": "Description"
 				},
 				{
 					"type": "url",
-					"id": "btn_url1",
-					"label": "Button Url1"
+					"id": "btn_url",
+					"label": "Button Url"
 				},
 				{
 					"type": "text",
-					"id": "btn_title1",
-					"label": "Button Title1",
+					"id": "btn_title",
+					"label": "Button Title",
 					"default": "Learn More"
 				}
 			]
