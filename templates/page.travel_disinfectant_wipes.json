@@ -69,11 +69,22 @@
             "btn_url": "#",
             "btn_title": "Learn More"
           }
+        },
+        "2a9207ff-28b6-46c1-b0e0-64f0f4a0aa01": {
+          "type": "text-columns-with-images",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/noun_Community_1150599-2_a02fe32c-6ac9-4fd1-9a98-8b12a1241048.png",
+            "title": "Community Driven",
+            "des": "We donate 5% of our sales to the communities that we live & work in.",
+            "btn_url": "",
+            "btn_title": "Learn More"
+          }
         }
       },
       "block_order": [
         "164315368571e43005-0",
-        "164315368571e43005-1"
+        "164315368571e43005-1",
+        "2a9207ff-28b6-46c1-b0e0-64f0f4a0aa01"
       ],
       "settings": {
         "header_title": "What makes our products special?"
