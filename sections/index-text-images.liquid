@@ -1,6 +1,6 @@
 {% schema %}
   {
-    "name": "Section name",
+    "name": "Text & Image",
     "settings": [
 		{
           "type": "text",
@@ -8,6 +8,41 @@
           "label": "Header Title",
           "default": "What makes our products special?"
         }
+	],
+	"blocks": [
+		{
+			"type": "text-columns-with-images",
+			"name": "Text Columns With Images",
+			"limit": 3,
+			"settings": [
+				{
+					"type": "image_picker",
+					"id": "image1",
+					"label": "Image1"
+				},
+				{
+					"type": "text",
+					"id": "title1",
+					"label": "Title1"
+				},
+				{
+					"type": "textarea",
+					"id": "des1",
+					"label": "Description1"
+				},
+				{
+					"type": "url",
+					"id": "btn_url1",
+					"label": "Button Url1"
+				},
+				{
+					"type": "text",
+					"id": "btn_title1",
+					"label": "Button Title1",
+					"default": "Learn More"
+				}
+			]
+		}
 	]
   }
 {% endschema %}
