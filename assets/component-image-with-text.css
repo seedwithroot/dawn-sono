@@ -119,7 +119,7 @@
 
 .image-with-text__content .image-with-text__text + .button {
   margin-top: 3rem;
-  border-radius: 45px;
+  border-radius: 0;
 }
 
 .image-with-text__heading {
