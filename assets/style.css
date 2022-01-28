@@ -1,10 +1,10 @@
 /* featured collection */
-.featured_collection a {
+.featured_collection .button {
   background: #fff;
   color: #121212;
   transition: all 0.3s;
 }
-.featured_collection a {
+.featured_collection .button:hover {
   background: #121212;
   color: #fff;
 }
