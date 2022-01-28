@@ -132,10 +132,10 @@
 }
 .image-with-text__content a {
   background: #fff;
-  color: #000;
+  color: #121212;
 }
 .image-with-text__content a:hover {
-  background: #000;
+  background: #121212;
   color: #fff;
   transition: all 0.3s;
 }
