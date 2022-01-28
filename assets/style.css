@@ -1,3 +1,15 @@
+/* featured collection */
+.featured_collection a {
+  background: #fff;
+  color: #121212;
+  transition: all 0.3s;
+}
+.featured_collection a {
+  background: #121212;
+  color: #fff;
+}
+/* featured collection */
+
 /* trave page */
 .hero-section {
   position: relative;
