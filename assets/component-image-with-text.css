@@ -130,3 +130,7 @@
   margin-top: 0;
   margin-bottom: 1rem;
 }
+image-with-text__content a {
+  background: #fff;
+  color: #000;
+}
