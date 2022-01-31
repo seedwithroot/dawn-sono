@@ -106,13 +106,13 @@
           "type": "image_text",
           "settings": {
             "bg": "shopify:\/\/shop_images\/man-with-luggage-in-waiting-room-1024x683.jpg",
-            "title": "Travel Kit",
+            "title": "<b>Travel Kit<\/b>",
             "title_color": "#1d1d1f",
-            "sub_title": "TSA Approved to keep you safe while traveling",
+            "sub_title": "<div style=\"font-size: 1.3em\">TSA Approved to keep you safe while traveling<\/div>",
             "sub_color": "#1d1d1f",
-            "btn_title1": "How clean is the plane?",
+            "btn_title1": "<div style=\"font-size: .9em\">How clean is the plane?<\/div>",
             "btn_url1": "",
-            "btn_title2": "View Travel Kit",
+            "btn_title2": "View Travel Kit >",
             "btn_url2": "",
             "btn_color": "#2997ff",
             "des_po": "top"
