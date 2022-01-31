@@ -355,8 +355,8 @@
         "1639423379e0209fe2-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/SONO_Hallway_Set_v1.jpg",
-        "height": "small",
+        "image": "shopify:\/\/shop_images\/SONO_Hallway_All-Kits_v1.jpg",
+        "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first"
       }
