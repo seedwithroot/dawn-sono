@@ -96,7 +96,7 @@
             "sub_color": "#121212",
             "btn_title1": "<div style=\"font-size: .9em\">Back to School Kit<\/div>",
             "btn_url1": "#",
-            "btn_title2": "Buy >",
+            "btn_title2": "<div style=\"font-size: .9em\"> Buy ><\/div>",
             "btn_url2": "",
             "btn_color": "#1878b9",
             "des_po": "top"
@@ -112,7 +112,7 @@
             "sub_color": "#1d1d1f",
             "btn_title1": "<div style=\"font-size: .9em\">How clean is the plane?<\/div>",
             "btn_url1": "",
-            "btn_title2": "View Travel Kits >",
+            "btn_title2": "<div style=\"font-size: .9em\">View Travel Kits ><\/div>",
             "btn_url2": "",
             "btn_color": "#2997ff",
             "des_po": "top"
