@@ -89,17 +89,17 @@
         "1641507969dbe3b121-0": {
           "type": "image_text",
           "settings": {
-            "bg": "shopify:\/\/shop_images\/AlpineSwiss_Products_Lifestyle_shot.jpg",
+            "bg": "shopify:\/\/shop_images\/SONO_LivingRoom_Set_v2.jpg",
             "title": "Back to School",
-            "title_color": "#ffffff",
+            "title_color": "#000000",
             "sub_title": "Know your kids will be safe",
-            "sub_color": "#fec2eb",
+            "sub_color": "#121212",
             "btn_title1": "Back to School Kit",
             "btn_url1": "#",
             "btn_title2": "Buy",
             "btn_url2": "",
             "btn_color": "#1878b9",
-            "des_po": "middle"
+            "des_po": "top"
           }
         },
         "1641507969dbe3b121-1": {
