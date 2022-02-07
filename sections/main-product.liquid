@@ -144,6 +144,12 @@
                   </div>
                 </div>
               {% endif %}
+              {% if block.settings.direction_section %}
+              	<div class="accordian-item">
+                  <div class="accordian-title">Direction</div>
+                  <div class="accordian-content">{{ block.settings.direction_section }}</div>
+              	</div>
+              {% endif %}
         	</div>
           {%- when 'custom_liquid' -%}
             {{ block.settings.custom_liquid }}
