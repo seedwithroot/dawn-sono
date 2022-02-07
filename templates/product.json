@@ -27,9 +27,15 @@
           "settings": {
           }
         },
+        "loox-rating": {
+          "type": "shopify:\/\/apps\/loox-photo-reviews\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
+            "picker_type": "button"
           }
         },
         "quantity_selector": {
@@ -40,21 +46,34 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
+            "show_dynamic_checkout": true
           }
         },
         "description": {
           "type": "description",
           "settings": {
+            "where_section": true,
+            "where_home": "<ul>\n<li>Sinks<\/li>\n<li>Countertops<\/li>\n<li>Bathrooms surfaces<\/li>\n<li>Toilets<\/li>\n<li>Bathtubs<\/li>\n<li>Kitchen surfaces and appliances<\/li>\n<li>Dinner tables<\/li>\n<li>Chairs<\/li>\n<li>Entrances<\/li>\n<li>Doorknobs<\/li>\n<li>Floors<\/li>\n<li>Computer equipment<\/li>\n<\/ul>",
+            "where_workplace": "<ul>\n<li>Doorknobs<\/li>\n<li>Restrooms<\/li>\n<li>Shared computer equipment<\/li>\n<li>Keyboards<\/li>\n<li>Mice<\/li>\n<li>Phones<\/li>\n<li>Service trucks<\/li>\n<\/ul>",
+            "where_bottom": "SONO Wipes are the best all-in-one, multi-surface, cleaning wipes for sanitizing and disinfecting just about anything. Being delicate but effective enough for use in the healthcare industry on medical equipment since 2012, our customers today use SONO Wipes on shoes, phones, and many other personal belongings when in the office, at home, or even on vacation as their go-to, all-purpose cleaning wipe. Given that our wipes are alcohol-free and registered with the EPA, you can feel confident that they're safe to use and effective on almost anything*.",
+            "direction_section": true,
+            "direction": "<ol>\n<li>\nWipe the surface until it is visibly wet with solution.\n<\/li>\n<li>Maintain a wet surface for at least 4 minutes, using multiple wipes if needed.<\/li>\n<li>Allow to air dry.<\/li>\n<\/ol>",
+            "ingredients_section": true,
+            "active_ingredients": "<ul>\n<li>Octyl decyl dimethyl ammonium chloride\t0.0909%<\/li>\n<li>Dioctyl dimethyl ammonium chloride\t0.0364%<\/li>\n<li>Didecyl dimethyl ammonium chloride\t.0.0545%<\/li>\n<li>Alkyl (C14, 50%; C12, 40%; C16, 10%) dimethyl benzyl ammonium chloride\t0.1212%<\/li>\n<li>Other Ingredients:\t99.6970%<\/li>\n<li>Total: 100.0000%<\/li>\n<\/ul>",
+            "storage_section": true,
+            "storage": "Store in original container in areas inaccessible to children. Keep securely closed. Nonrefillable container. Do not reuse or refill this container. Discard empty container in trash or recycle if available.",
+            "caution_section": true,
+            "caution": "<ul>\n<li>Keep out of reach of children and pets.<\/li>\n<li>Causes moderate eye irritation. Avoid contact with eyes or clothing. Wash thoroughly with soap and water after handling and before eating, drinking, chewing gum, using tobacco or using the toilet.<\/li>\n<\/ul>",
+            "registration_section": true,
+            "official_registration_epa": "EPA Registration #: 6836-340-89018\nOur disinfecting wipes are registered on the EPA List N, which can be verified here.",
+            "official_registration_why": "In pursuit of profits, many products available today misleadingly market themselves as surface disinfectants despite not being registered with the EPA as such, thereby selfishly placing consumers at risk by compelling them to cheaply purchase products with formulas that have not been verified to deliver on the claims made on their respective labels. Unfortunately, even big-box retailers have naively fallen prey to the predatory tactics of these companies, which means that even some of the products that line the shelves of your favorite retailers may contain formulas that are not only ineffective, but even hazardous to your health. Supporting these kinds of companies undermines the efforts of our government to facilitate a market that is not only competitive, but more importantly, safe for the American people.\n<br><br>\nEvery time you make a purchase you are casting a vote for the kinds of products and companies you want available, so please be sure to always check the labels of your surface disinfecting products for an EPA registration number and ensure that you are contributing to a safe environment not only for yourself, but for those around you.",
+            "official_registration_verify": "<ol>\n<li>The disinfecting formula we use has a unique EPA registration number of: 6836-340. (This is what you will enter into the <a href=\"https:\/\/cfpub.epa.gov\/giwiz\/disinfectants\/index.cfm\" class=\"\">EPA List N tool <\/a>to identify our disinfecting wipes' formula.)<\/li>\n<li>On all of our disinfecting wipes products’ packaging, you will find this number with -89018 appended which is our unique Brand ID. (ex. 6836-340-89018)<\/li>\n<\/ol>"
           }
         },
         "share": {
           "type": "share",
           "settings": {
-          }
-        },
-        "loox-rating": {
-          "type": "shopify:\/\/apps\/loox-photo-reviews\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
+            "share_label": "Share"
           }
         }
       },
@@ -71,11 +90,21 @@
         "share"
       ],
       "settings": {
+        "enable_sticky_info": true,
+        "hide_variants": false,
+        "enable_video_looping": false
       }
     },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
+        "heading": "You may also like",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
       }
     },
     "loox-product-reviews-app-section": {
