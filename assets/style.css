@@ -97,6 +97,7 @@
   padding: 10px 45px 10px 20px;
   text-transform: uppercase;
   position: relative;
+  cursor: pointer;
 }
 .accordian-title:before, .accordian-title:after {
   content: "";
