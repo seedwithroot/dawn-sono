@@ -130,4 +130,7 @@
   padding: 0 15px;
   border-bottom: 1px solid rgb(206, 206, 206);
 }
+.accordian-content_header {
+  display: flex;
+}
 /* product page */
