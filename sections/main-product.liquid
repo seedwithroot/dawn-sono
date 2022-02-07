@@ -156,6 +156,12 @@
                   <div class="accordian-content">{{ block.settings.active_ingredients }}</div>
               	</div>
               {% endif %}
+              {% if block.settings.storage_section %}
+              	<div class="accordian-item">
+                  <div class="accordian-title">Storage</div>
+                  <div class="accordian-content">{{ block.settings.storage }}</div>
+              	</div>
+              {% endif %}
         	</div>
           {%- when 'custom_liquid' -%}
             {{ block.settings.custom_liquid }}
