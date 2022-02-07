@@ -100,8 +100,8 @@
             {%- endif -%}
             <div {{ block.shopify_attributes }}>
               {%- form 'product', product, id: 'product-form-installment', class: 'installment caption-large' -%}
-              {% if product.available %}{% include 'subscription-product' %}{% endif %} 
                 <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
+              {% if product.available %}{% include 'subscription-product' %}{% endif %} 
                 {{ form | payment_terms }}
               {%- endform -%}
             </div>
