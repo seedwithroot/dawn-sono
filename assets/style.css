@@ -90,3 +90,12 @@
   }
 }
 /* trave page */
+
+/* product page */
+.accordian-title {
+  background: #F3F5F9;
+  padding: 10px 45px 10px 20px;
+  text-transform: uppercase;
+  position: relative;
+}
+/* product page */
