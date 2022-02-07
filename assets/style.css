@@ -126,4 +126,8 @@
   -ms-transform: translate(-6px,7px);
   transform: translate(-6px,7px);
 }
+.accordian-content {
+  padding: 0 15px;
+  border-bottom: 1px solid rgb(206, 206, 206);
+}
 /* product page */
