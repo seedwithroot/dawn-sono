@@ -98,4 +98,11 @@
   text-transform: uppercase;
   position: relative;
 }
+.accordian-title:before {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 2px;
+  background: #000;
+}
 /* product page */
