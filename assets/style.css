@@ -98,7 +98,7 @@
   text-transform: uppercase;
   position: relative;
 }
-.accordian-title:before {
+.accordian-title:before, .accordian-title:after {
   content: "";
   position: absolute;
   width: 12px;
