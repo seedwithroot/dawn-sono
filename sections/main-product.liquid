@@ -105,11 +105,16 @@
               {%- endform -%}
             </div>
           {%- when 'description' -%}
+        	<div class="accordian-section">
             {%- if product.description != blank -%}
-              <div class="product__description rte">
-                {{ product.description }}
+              <div class="accordian-item">
+                <div class="accordian-title">Description</div>
+                <div class="accordian-content">
+                  {{ product.description }}
+                </div>
               </div>
             {%- endif -%}
+        	</div>
           {%- when 'custom_liquid' -%}
             {{ block.settings.custom_liquid }}
           {%- when 'collapsible_tab' -%}
