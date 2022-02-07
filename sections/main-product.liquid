@@ -150,6 +150,12 @@
                   <div class="accordian-content">{{ block.settings.direction_section }}</div>
               	</div>
               {% endif %}
+              {% if block.settings.ingredients_section %}
+              	<div class="accordian-item">
+                  <div class="accordian-title">Active Ingredients</div>
+                  <div class="accordian-content">{{ block.settings.active_ingredients }}</div>
+              	</div>
+              {% endif %}
         	</div>
           {%- when 'custom_liquid' -%}
             {{ block.settings.custom_liquid }}
