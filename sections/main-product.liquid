@@ -168,6 +168,41 @@
                   <div class="accordian-content">{{ block.settings.caution }}</div>
               	</div>
               {% endif %}
+              {% if block.settings.registration_section %}
+              	<div class="accordian-item">
+                  <div class="accordian-title">Official Registration</div>
+                  <div class="accordian-content">
+                  	<div class="accordian-content_header">
+                      {% if block.settings.official_registration_epa %}
+                      <div class="header-item">Epa Registration #</div>
+                      {% endif %}
+                      {% if block.settings.official_registration_why %}
+                      <div class="header-item">Why it Matters</div>
+                      {% endif %}
+                      {% if block.settings.official_registration_verification %}
+                      <div class="header-item">How to Verify</div>
+                      {% endif %}
+                    </div>
+                    <div class="accordian-content_des">
+                      {% if block.settings.official_registration_epa %}
+                      <div class="des-item">
+                        {{ block.settings.official_registration_epa }}
+                      </div>
+                      {% endif %}
+                      {% if block.settings.official_registration_why %}
+                      <div class="des-item">
+                        {{ block.settings.official_registration_why }}
+                      </div>
+                      {% endif %}
+                      {% if block.settings.official_registration_verification %}
+                      <div class="des-item">
+                        {{ block.settings.official_registration_verification }}
+                      </div>
+                      {% endif %}
+                    </div>
+                  </div>
+              	</div>
+              {% endif %}
         	</div>
           {%- when 'custom_liquid' -%}
             {{ block.settings.custom_liquid }}
