@@ -138,6 +138,9 @@
                       </div>
                       {% endif %}
                     </div>
+                    {% if block.settings.where_bottom %}
+                    {{ block.settings.where_bottom }}
+                    {% endif %}
                   </div>
                 </div>
               {% endif %}
