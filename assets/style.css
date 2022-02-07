@@ -92,6 +92,9 @@
 /* trave page */
 
 /* product page */
+.accordian-item {
+  margin-bottom: 10px;
+}
 .accordian-title {
   background: #F3F5F9;
   padding: 10px 45px 10px 20px;
