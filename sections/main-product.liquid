@@ -106,14 +106,41 @@
             </div>
           {%- when 'description' -%}
         	<div class="accordian-section">
-            {%- if product.description != blank -%}
-              <div class="accordian-item">
-                <div class="accordian-title">Description</div>
-                <div class="accordian-content">
-                  {{ product.description }}
+              {%- if product.description != blank -%}
+                <div class="accordian-item">
+                  <div class="accordian-title">Description</div>
+                  <div class="accordian-content">
+                    {{ product.description }}
+                  </div>
                 </div>
-              </div>
-            {%- endif -%}
+              {%- endif -%}
+              {% if block.settings.where_section %}
+                <div class="accordian-item">
+                  <div class="accordian-title">Where To Use</div>
+                  <div class="accordian-content">
+                    <div class="accordian-content_header">
+                      {% if block.settings.where_home %}
+                      <div class="header-item">Home</div>
+                      {% endif %}
+                      {% if block.settings.where_where_workplace %}
+                      <div class="header-item">Workplace</div>
+                      {% endif %}
+                    </div>
+                    <div class="accordian-content_des">
+                      {% if block.settings.where_home %}
+                      <div class="des-item">
+                        {{ block.settings.where_home }}
+                      </div>
+                      {% endif %}
+                      {% if block.settings.where_workplace %}
+                      <div class="des-item">
+                        {{ block.settings.where_workplace }}
+                      </div>
+                      {% endif %}
+                    </div>
+                  </div>
+                </div>
+              {% endif %}
         	</div>
           {%- when 'custom_liquid' -%}
             {{ block.settings.custom_liquid }}
