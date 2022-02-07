@@ -362,7 +362,109 @@
       </div>
     </div>
   </div>
-
+  {% for block in section.block %}
+  	{% if block.type == "description" %}
+        	<div class="accordian-section">
+              {%- if product.description != blank -%}
+                <div class="accordian-item">
+                  <div class="accordian-title">Description</div>
+                  <div class="accordian-content">
+                    {{ product.description }}
+                  </div>
+                </div>
+              {%- endif -%}
+              {% if block.settings.where_section %}
+                <div class="accordian-item">
+                  <div class="accordian-title">Where To Use</div>
+                  <div class="accordian-content">
+                    <div class="accordian-content_header">
+                      {% if block.settings.where_home %}
+                      <div class="header-item active">Home</div>
+                      {% endif %}
+                      {% if block.settings.where_workplace %}
+                      <div class="header-item">Workplace</div>
+                      {% endif %}
+                    </div>
+                    <div class="accordian-content_des">
+                      {% if block.settings.where_home %}
+                      <div class="des-item">
+                        {{ block.settings.where_home }}
+                      </div>
+                      {% endif %}
+                      {% if block.settings.where_workplace %}
+                      <div class="des-item">
+                        {{ block.settings.where_workplace }}
+                      </div>
+                      {% endif %}
+                    </div>
+                    {% if block.settings.where_bottom %}
+                    {{ block.settings.where_bottom }}
+                    {% endif %}
+                  </div>
+                </div>
+              {% endif %}
+              {% if block.settings.direction_section %}
+              	<div class="accordian-item">
+                  <div class="accordian-title">Direction</div>
+                  <div class="accordian-content">{{ block.settings.direction }}</div>
+              	</div>
+              {% endif %}
+              {% if block.settings.ingredients_section %}
+              	<div class="accordian-item">
+                  <div class="accordian-title">Active Ingredients</div>
+                  <div class="accordian-content">{{ block.settings.active_ingredients }}</div>
+              	</div>
+              {% endif %}
+              {% if block.settings.storage_section %}
+              	<div class="accordian-item">
+                  <div class="accordian-title">Storage</div>
+                  <div class="accordian-content">{{ block.settings.storage }}</div>
+              	</div>
+              {% endif %}
+              {% if block.settings.caution_section %}
+              	<div class="accordian-item">
+                  <div class="accordian-title">Caution</div>
+                  <div class="accordian-content">{{ block.settings.caution }}</div>
+              	</div>
+              {% endif %}
+              {% if block.settings.registration_section %}
+              	<div class="accordian-item">
+                  <div class="accordian-title">Official Registration</div>
+                  <div class="accordian-content">
+                  	<div class="accordian-content_header">
+                      {% if block.settings.official_registration_epa %}
+                      <div class="header-item active">Epa Registration #</div>
+                      {% endif %}
+                      {% if block.settings.official_registration_why %}
+                      <div class="header-item">Why it Matters</div>
+                      {% endif %}
+                      {% if block.settings.official_registration_verify %}
+                      <div class="header-item">How to Verify</div>
+                      {% endif %}
+                    </div>
+                    <div class="accordian-content_des">
+                      {% if block.settings.official_registration_epa %}
+                      <div class="des-item">
+                        {{ block.settings.official_registration_epa }}
+                      </div>
+                      {% endif %}
+                      {% if block.settings.official_registration_why %}
+                      <div class="des-item">
+                        {{ block.settings.official_registration_why }}
+                      </div>
+                      {% endif %}
+                      {% if block.settings.official_registration_verify %}
+                      <div class="des-item">
+                        {{ block.settings.official_registration_verify }}
+                      </div>
+                      {% endif %}
+                    </div>
+                  </div>
+              	</div>
+              {% endif %}
+        	</div>
+    {% endif %}
+  {% endfor %}
   <product-modal id="ProductModal-{{ section.id }}" class="product-media-modal media-modal">
     <div class="product-media-modal__dialog" role="dialog" aria-label="{{ 'products.modal.label' | t }}" aria-modal="true" tabindex="-1">
       <button id="ModalClose-{{ section.id }}" type="button" class="product-media-modal__toggle" aria-label="{{ 'accessibility.close' | t }}">{% render 'icon-close' %}</button>
