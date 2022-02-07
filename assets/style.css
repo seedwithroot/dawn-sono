@@ -104,5 +104,12 @@
   width: 12px;
   height: 2px;
   background: #000;
+  top: -15px;
+  right: 15px;
+}
+.accordian-title:before {
+  -webkit-transform: translate(-6px,7px);
+  -ms-transform: translate(-6px,7px);
+  transform: translate(-6px,7px);
 }
 /* product page */
