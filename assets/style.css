@@ -117,4 +117,9 @@
   -ms-transform: rotate(90deg) translate(7px,6px);
   transform: rotate(90deg) translate(7px,6px);
 }
+.accordian-title.active:after {
+  -webkit-transform: translate(-6px,7px);
+  -ms-transform: translate(-6px,7px);
+  transform: translate(-6px,7px);
+}
 /* product page */
