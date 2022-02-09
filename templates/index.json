@@ -48,7 +48,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/madeinamerica_icon_02378021-c3b4-48c6-b8ba-361deebf62c6.png",
             "title": "Made in America",
-            "des": "Sustainability is our main goal, that's why our packaging is recyclable.",
+            "des": "",
             "btn_url": "#",
             "btn_title": ""
           }
@@ -58,7 +58,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/99germs_icon_45cf31a4-aaf3-4617-9265-22c0a3953a87.png",
             "title": "Kills 99.9% of Germs",
-            "des": "Our natural ingredients will leave you feeling fresh and smooth.",
+            "des": "",
             "btn_url": "#",
             "btn_title": ""
           }
@@ -68,7 +68,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/tsa_icon_b30ba012-37dd-4735-97c8-3e272574f488.png",
             "title": "TSA Approved",
-            "des": "We donate 5% of our sales to the communities that we live & work in.",
+            "des": "",
             "btn_url": "#",
             "btn_title": ""
           }
